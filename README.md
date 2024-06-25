@@ -1,5 +1,4 @@
 <h1 align="center"> InVITe | Event Management System</h1>
-<h3 align="center">Live at https://invite-onweb.vercel.app/</h3>
 Welcome to our automated event management system, where you can easily organize events, manage registrations, and book tickets, all with just a few clicks. This system provides a hassle-free experience for both event organizers and attendees, making event management a breeze.
 <br>
 
@@ -47,11 +46,11 @@ NEXT_PUBLIC_API_URL - the URL of the API server (e.g. http://localhost:5000)</co
 <h4>For the server-side:</h4>
 <p>Create a <b>.env</b> file in the server folder with the following variables:</p>
 <pre><code class="language-rust">
-                      MONGO_ATLAS_URI - the connection string for your MongoDB Atlas database
-                      STRIPE_KEY - the secret key for your Stripe account
-                      NODE_MAILER_USER - the email address to use for sending email notifications
-                      NODE_MAILER_PASS - the password for the email address to use for sending email notifications
-                      JWT_SECRET - the secret key to use for JWT token generation
+  MONGO_ATLAS_URI - the connection string for your MongoDB Atlas database
+  STRIPE_KEY - the secret key for your Stripe account
+  NODE_MAILER_USER - the email address to use for sending email notifications
+  NODE_MAILER_PASS - the password for the email address to use for sending email notifications
+  JWT_SECRET - the secret key to use for JWT token generation
 </code></pre>
 <h3>Start the servers</h3>
 <p>To start the servers, run the following commands:</p>
